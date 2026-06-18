@@ -1,0 +1,20 @@
+id: coderabbit
+name: CodeRabbit
+repo: null
+homepage: https://www.coderabbit.ai
+category: review
+tags: [pr-review, github, gitlab, ci]
+pricing: freemium
+platform: [web]
+
+tried: false
+rating: null
+
+status: unknown
+stars: null
+last_commit: null
+fetched_at: null
+
+review:
+  ko:
+    blurb: "PR을 자동으로 읽고 라인별 리뷰 코멘트를 다는 도구. 깃허브/깃랩 연동."

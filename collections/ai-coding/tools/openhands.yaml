@@ -1,0 +1,20 @@
+id: openhands
+name: OpenHands
+repo: All-Hands-AI/OpenHands
+homepage: https://www.all-hands.dev
+category: agent
+tags: [agent, open-source, autonomous, sandbox]
+pricing: open-source
+platform: [macos, windows, linux, web]
+
+tried: false
+rating: null
+
+status: unknown
+stars: null
+last_commit: null
+fetched_at: null
+
+review:
+  ko:
+    blurb: "구 OpenDevin. 샌드박스에서 자율로 코드를 작성·실행하는 오픈소스 에이전트."

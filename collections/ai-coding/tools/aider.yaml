@@ -1,0 +1,20 @@
+id: aider
+name: Aider
+repo: Aider-AI/aider
+homepage: https://aider.chat
+category: cli
+tags: [terminal, git, open-source]
+pricing: open-source
+platform: [macos, windows, linux]
+
+tried: false
+rating: null
+
+status: unknown
+stars: null
+last_commit: null
+fetched_at: null
+
+review:
+  ko:
+    blurb: "터미널에서 git과 짝지어 작동하는 페어 프로그래밍 CLI. 모델 선택 자유로움."

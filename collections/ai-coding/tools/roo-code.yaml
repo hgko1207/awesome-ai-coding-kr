@@ -1,0 +1,20 @@
+id: roo-code
+name: Roo Code
+repo: null
+homepage: https://roocode.com
+category: ide-extension
+tags: [vscode, agent, open-source, cline-fork]
+pricing: open-source
+platform: [vscode]
+
+tried: false
+rating: null
+
+status: unknown
+stars: null
+last_commit: null
+fetched_at: null
+
+review:
+  ko:
+    blurb: "Cline에서 갈라져 나온 VSCode 에이전트. 모드·커스터마이즈가 더 풍부함."

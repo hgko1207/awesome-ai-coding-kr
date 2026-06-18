@@ -1,0 +1,20 @@
+id: cline
+name: Cline
+repo: cline/cline
+homepage: https://cline.bot
+category: ide-extension
+tags: [vscode, agent, open-source, mcp]
+pricing: open-source
+platform: [vscode]
+
+tried: false
+rating: null
+
+status: unknown
+stars: null
+last_commit: null
+fetched_at: null
+
+review:
+  ko:
+    blurb: "VSCode 안에서 도는 자율 에이전트 확장. 파일 수정 단계를 사람이 승인하는 방식."

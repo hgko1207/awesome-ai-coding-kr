@@ -1,0 +1,20 @@
+id: claude-code
+name: Claude Code
+repo: anthropics/claude-code
+homepage: https://www.anthropic.com/claude-code
+category: agent
+tags: [terminal, cli, anthropic, agent]
+pricing: freemium
+platform: [macos, windows, linux]
+
+tried: true
+rating: 5
+
+status: unknown
+stars: null
+last_commit: null
+fetched_at: null
+
+review:
+  ko:
+    blurb: "VSCode에 붙여 매일 쓰는 주력. 플랜 짜기·아이디어 생성·바이브코딩에 특히 강하다."

@@ -1,0 +1,20 @@
+id: goose
+name: Goose
+repo: block/goose
+homepage: https://block.github.io/goose
+category: cli
+tags: [terminal, agent, open-source, mcp, block]
+pricing: open-source
+platform: [macos, windows, linux]
+
+tried: false
+rating: null
+
+status: unknown
+stars: null
+last_commit: null
+fetched_at: null
+
+review:
+  ko:
+    blurb: "Block(스퀘어)이 만든 오픈소스 에이전트. MCP 기반 확장이 자유로움."

@@ -1,0 +1,20 @@
+id: codex-cli
+name: OpenAI Codex CLI
+repo: openai/codex
+homepage: https://developers.openai.com/codex
+category: cli
+tags: [terminal, openai, agent, open-source]
+pricing: freemium
+platform: [macos, windows, linux]
+
+tried: false
+rating: null
+
+status: unknown
+stars: null
+last_commit: null
+fetched_at: null
+
+review:
+  ko:
+    blurb: "OpenAI 공식 터미널 코딩 에이전트. Claude Code의 OpenAI 진영 대응."

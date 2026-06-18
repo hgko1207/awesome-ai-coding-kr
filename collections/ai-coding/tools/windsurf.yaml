@@ -1,0 +1,20 @@
+id: windsurf
+name: Windsurf
+repo: null
+homepage: https://windsurf.com
+category: agent
+tags: [editor, vscode-fork, agent, cascade]
+pricing: freemium
+platform: [macos, windows, linux]
+
+tried: false
+rating: null
+
+status: unknown
+stars: null
+last_commit: null
+fetched_at: null
+
+review:
+  ko:
+    blurb: "Cascade 에이전트를 내장한 AI 에디터. Cursor의 주요 경쟁자."

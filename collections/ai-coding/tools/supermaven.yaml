@@ -1,0 +1,20 @@
+id: supermaven
+name: Supermaven
+repo: null
+homepage: https://supermaven.com
+category: autocomplete
+tags: [autocomplete, fast, long-context]
+pricing: freemium
+platform: [vscode, jetbrains]
+
+tried: false
+rating: null
+
+status: unknown
+stars: null
+last_commit: null
+fetched_at: null
+
+review:
+  ko:
+    blurb: "초저지연·초장문맥 자동완성. 속도에 초점. (현재 Cursor 팀에 합류)"

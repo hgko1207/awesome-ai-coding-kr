@@ -1,0 +1,21 @@
+{
+  "name": "awesome-ai-coding-kr",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "직접 써본 AI 코딩 도구를 솔직한 한국어 평과 함께 모은, 자동으로 안 썩게 관리되는 큐레이션",
+  "scripts": {
+    "validate": "tsx scripts/validate.ts",
+    "build:readme": "tsx scripts/build-readme.ts",
+    "refresh": "tsx scripts/refresh-metadata.ts",
+    "build": "npm run validate && npm run build:readme"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "yaml": "^2.6.1",
+    "zod": "^3.24.1"
+  }
+}

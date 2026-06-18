@@ -1,0 +1,20 @@
+id: amazon-q-developer
+name: Amazon Q Developer
+repo: null
+homepage: https://aws.amazon.com/q/developer
+category: ide-extension
+tags: [aws, autocomplete, agent, enterprise]
+pricing: freemium
+platform: [vscode, jetbrains]
+
+tried: false
+rating: null
+
+status: unknown
+stars: null
+last_commit: null
+fetched_at: null
+
+review:
+  ko:
+    blurb: "구 CodeWhisperer. AWS 생태계 연동과 보안 스캔에 강한 코딩 어시스턴트."

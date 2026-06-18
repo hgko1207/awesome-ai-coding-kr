@@ -1,0 +1,20 @@
+id: continue
+name: Continue
+repo: continuedev/continue
+homepage: https://www.continue.dev
+category: ide-extension
+tags: [vscode, jetbrains, open-source, customizable]
+pricing: open-source
+platform: [vscode, jetbrains]
+
+tried: false
+rating: null
+
+status: unknown
+stars: null
+last_commit: null
+fetched_at: null
+
+review:
+  ko:
+    blurb: "오픈소스 IDE 확장. 자동완성·채팅을 직접 모델/규칙으로 커스터마이즈 가능."

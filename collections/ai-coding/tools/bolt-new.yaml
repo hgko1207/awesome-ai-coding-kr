@@ -1,0 +1,20 @@
+id: bolt-new
+name: bolt.new
+repo: stackblitz/bolt.new
+homepage: https://bolt.new
+category: agent
+tags: [web, in-browser, full-stack, stackblitz]
+pricing: freemium
+platform: [web]
+
+tried: false
+rating: null
+
+status: unknown
+stars: null
+last_commit: null
+fetched_at: null
+
+review:
+  ko:
+    blurb: "브라우저 안에서 풀스택 앱을 생성·실행·배포하는 에이전트. StackBlitz 제작."

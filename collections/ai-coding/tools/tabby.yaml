@@ -1,0 +1,20 @@
+id: tabby
+name: Tabby
+repo: TabbyML/tabby
+homepage: https://www.tabbyml.com
+category: autocomplete
+tags: [self-hosted, open-source, autocomplete, privacy]
+pricing: open-source
+platform: [vscode, jetbrains, linux]
+
+tried: false
+rating: null
+
+status: unknown
+stars: null
+last_commit: null
+fetched_at: null
+
+review:
+  ko:
+    blurb: "직접 호스팅하는 오픈소스 자동완성. 코드가 외부로 안 나가야 할 때 선택."

@@ -1,0 +1,20 @@
+id: mcp-servers
+name: MCP Servers (공식 모음)
+repo: modelcontextprotocol/servers
+homepage: https://modelcontextprotocol.io
+category: mcp-server
+tags: [mcp, reference, anthropic, tools]
+pricing: open-source
+platform: [macos, windows, linux]
+
+tried: false
+rating: null
+
+status: unknown
+stars: null
+last_commit: null
+fetched_at: null
+
+review:
+  ko:
+    blurb: "Model Context Protocol 공식 레퍼런스 서버 모음. 에이전트에 도구·데이터 연결."

@@ -1,0 +1,20 @@
+id: cursor
+name: Cursor
+repo: null
+homepage: https://www.cursor.com
+category: agent
+tags: [editor, vscode-fork, agent]
+pricing: freemium
+platform: [macos, windows, linux]
+
+tried: false
+rating: null
+
+status: unknown
+stars: null
+last_commit: null
+fetched_at: null
+
+review:
+  ko:
+    blurb: "VSCode 기반 AI 에디터. 에이전트 모드와 탭 자동완성으로 가장 널리 쓰임."

@@ -1,0 +1,20 @@
+id: v0
+name: v0
+repo: null
+homepage: https://v0.app
+category: agent
+tags: [web, ui, frontend, vercel]
+pricing: freemium
+platform: [web]
+
+tried: false
+rating: null
+
+status: unknown
+stars: null
+last_commit: null
+fetched_at: null
+
+review:
+  ko:
+    blurb: "Vercel의 UI 생성 에이전트. 설명만으로 React/Tailwind 화면을 뽑아냄."

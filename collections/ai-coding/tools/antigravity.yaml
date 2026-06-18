@@ -1,0 +1,20 @@
+id: antigravity
+name: Google Antigravity
+repo: null
+homepage: https://antigravity.google
+category: agent
+tags: [editor, vscode-fork, agent, google]
+pricing: freemium
+platform: [macos, windows, linux]
+
+tried: true
+rating: 3
+
+status: unknown
+stars: null
+last_commit: null
+fetched_at: null
+
+review:
+  ko:
+    blurb: "구글의 에이전트형 IDE. 깔아서 써봤는데 가능성은 보이지만 아직 손에 익진 않았다."

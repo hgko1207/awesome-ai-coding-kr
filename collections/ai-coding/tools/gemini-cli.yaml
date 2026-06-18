@@ -1,0 +1,20 @@
+id: gemini-cli
+name: Gemini CLI
+repo: google-gemini/gemini-cli
+homepage: https://github.com/google-gemini/gemini-cli
+category: cli
+tags: [terminal, google, agent, open-source]
+pricing: freemium
+platform: [macos, windows, linux]
+
+tried: false
+rating: null
+
+status: unknown
+stars: null
+last_commit: null
+fetched_at: null
+
+review:
+  ko:
+    blurb: "Google 공식 터미널 에이전트. 넉넉한 무료 한도가 강점."

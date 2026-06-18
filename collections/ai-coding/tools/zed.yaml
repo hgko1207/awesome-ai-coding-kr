@@ -1,0 +1,20 @@
+id: zed
+name: Zed
+repo: zed-industries/zed
+homepage: https://zed.dev
+category: ide-extension
+tags: [editor, rust, fast, agent, open-source]
+pricing: freemium
+platform: [macos, windows, linux]
+
+tried: false
+rating: null
+
+status: unknown
+stars: null
+last_commit: null
+fetched_at: null
+
+review:
+  ko:
+    blurb: "Rust로 만든 초고속 에디터. AI 에이전트 패널을 기본 내장."
