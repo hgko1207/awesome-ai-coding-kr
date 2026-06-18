@@ -2,7 +2,7 @@ id: v0
 name: v0
 repo: null
 homepage: https://v0.app
-category: agent
+category: app-builder
 tags: [web, ui, frontend, vercel]
 pricing: freemium
 platform: [web]

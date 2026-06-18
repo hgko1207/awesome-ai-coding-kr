@@ -1,0 +1,20 @@
+id: warp
+name: Warp
+repo: null
+homepage: https://www.warp.dev
+category: cli
+tags: [terminal, agent, rust, autocomplete]
+pricing: freemium
+platform: [macos, linux, windows]
+
+tried: false
+rating: null
+
+status: unknown
+stars: null
+last_commit: null
+fetched_at: null
+
+review:
+  ko:
+    blurb: "AI를 내장한 현대적 터미널. 명령어 추천과 에이전트 모드를 지원한다."

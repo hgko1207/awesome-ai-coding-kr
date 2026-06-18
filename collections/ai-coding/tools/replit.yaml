@@ -1,0 +1,20 @@
+id: replit
+name: Replit (Agent)
+repo: null
+homepage: https://replit.com
+category: app-builder
+tags: [web, in-browser, agent, deploy, beginner]
+pricing: freemium
+platform: [web]
+
+tried: false
+rating: null
+
+status: unknown
+stars: null
+last_commit: null
+fetched_at: null
+
+review:
+  ko:
+    blurb: "브라우저 IDE에 Agent를 결합. 설명만으로 앱을 만들고 그 자리에서 배포한다."

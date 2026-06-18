@@ -5,6 +5,9 @@ categories:
   - key: agent
     name: 코딩 에이전트
     description: 작업을 받아 스스로 코드를 읽고 쓰고 실행하는 자율 에이전트
+  - key: app-builder
+    name: 앱 빌더 (설명→앱)
+    description: 자연어 설명만으로 동작하는 앱·UI를 생성하고 바로 배포하는 도구
   - key: cli
     name: 터미널 / CLI
     description: 터미널에서 쓰는 AI 코딩 도구

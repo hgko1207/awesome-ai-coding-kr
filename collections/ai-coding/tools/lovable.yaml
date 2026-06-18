@@ -1,0 +1,20 @@
+id: lovable
+name: Lovable
+repo: null
+homepage: https://lovable.dev
+category: app-builder
+tags: [web, full-stack, no-code, supabase]
+pricing: freemium
+platform: [web]
+
+tried: false
+rating: null
+
+status: unknown
+stars: null
+last_commit: null
+fetched_at: null
+
+review:
+  ko:
+    blurb: "설명으로 풀스택 웹앱을 생성하는 인기 앱 빌더. 비개발자도 접근하기 쉽다."

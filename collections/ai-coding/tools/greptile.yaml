@@ -1,0 +1,20 @@
+id: greptile
+name: Greptile
+repo: null
+homepage: https://www.greptile.com
+category: review
+tags: [pr-review, codebase-context, github]
+pricing: paid
+platform: [web]
+
+tried: false
+rating: null
+
+status: unknown
+stars: null
+last_commit: null
+fetched_at: null
+
+review:
+  ko:
+    blurb: "코드베이스 전체 맥락을 이해해 PR을 리뷰하는 도구. 큰 저장소에 강하다."

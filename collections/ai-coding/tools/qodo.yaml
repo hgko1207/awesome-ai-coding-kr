@@ -1,0 +1,20 @@
+id: qodo
+name: Qodo
+repo: qodo-ai/pr-agent
+homepage: https://www.qodo.ai
+category: review
+tags: [pr-review, test-generation, open-source, codiumai]
+pricing: freemium
+platform: [vscode, jetbrains, web]
+
+tried: false
+rating: null
+
+status: active
+stars: 11659
+last_commit: "2026-06-16"
+fetched_at: "2026-06-18T16:06:15.153Z"
+
+review:
+  ko:
+    blurb: "구 CodiumAI. PR 리뷰와 테스트 생성에 특화. 오픈소스 PR-Agent도 제공한다."

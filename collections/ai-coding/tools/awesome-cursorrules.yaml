@@ -1,0 +1,20 @@
+id: awesome-cursorrules
+name: awesome-cursorrules
+repo: PatrickJS/awesome-cursorrules
+homepage: https://github.com/PatrickJS/awesome-cursorrules
+category: prompt
+tags: [cursor, rules, prompt, collection]
+pricing: open-source
+platform: [vscode]
+
+tried: false
+rating: null
+
+status: active
+stars: 40029
+last_commit: "2026-05-30"
+fetched_at: "2026-06-18T16:06:15.153Z"
+
+review:
+  ko:
+    blurb: "Cursor용 .cursorrules 규칙 모음. 프로젝트별 AI 동작을 손쉽게 세팅한다."

@@ -1,0 +1,20 @@
+id: junie
+name: JetBrains Junie
+repo: null
+homepage: https://www.jetbrains.com/junie
+category: ide-extension
+tags: [jetbrains, intellij, rider, agent]
+pricing: freemium
+platform: [jetbrains]
+
+tried: false
+rating: null
+
+status: unknown
+stars: null
+last_commit: null
+fetched_at: null
+
+review:
+  ko:
+    blurb: "JetBrains의 코딩 에이전트. IntelliJ·Rider 등 JetBrains IDE에 통합된다."

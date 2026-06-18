@@ -9,6 +9,7 @@ import { z } from "zod";
 
 export const CATEGORY_KEYS = [
   "agent",
+  "app-builder",
   "ide-extension",
   "cli",
   "mcp-server",

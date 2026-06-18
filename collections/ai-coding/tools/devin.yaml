@@ -1,0 +1,20 @@
+id: devin
+name: Devin
+repo: null
+homepage: https://devin.ai
+category: agent
+tags: [autonomous, cloud, cognition, agent]
+pricing: paid
+platform: [web]
+
+tried: false
+rating: null
+
+status: unknown
+stars: null
+last_commit: null
+fetched_at: null
+
+review:
+  ko:
+    blurb: "Cognition이 만든 자율 SW 엔지니어. 작업을 통째로 맡기는 클라우드 에이전트."
