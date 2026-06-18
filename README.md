@@ -39,7 +39,7 @@ _터미널에서 쓰는 AI 코딩 도구_
 |---|---|---|---|---|
 | [Gemini CLI](https://github.com/google-gemini/gemini-cli) | Google 공식 터미널 에이전트. 넉넉한 무료 한도가 강점. | 미사용 | 105.4k | 🟢 |
 | [OpenAI Codex CLI](https://developers.openai.com/codex) | OpenAI 공식 터미널 코딩 에이전트. Claude Code의 OpenAI 진영 대응. | 미사용 | 92.0k | 🟢 |
-| [Goose](https://block.github.io/goose) | Block(스퀘어)이 만든 오픈소스 에이전트. MCP 기반 확장이 자유로움. | 미사용 | 49.7k | 🟢 |
+| [Goose](https://block.github.io/goose) | Block(스퀘어)이 만든 오픈소스 에이전트. MCP 기반 확장이 자유로움. | 미사용 | 49.8k | 🟢 |
 | [Aider](https://aider.chat) | 터미널에서 git과 짝지어 작동하는 페어 프로그래밍 CLI. 모델 선택 자유로움. | 미사용 | 46.4k | 🟢 |
 
 ## IDE 확장
