@@ -10,10 +10,10 @@ platform: [vscode, jetbrains, linux]
 tried: false
 rating: null
 
-status: unknown
-stars: null
-last_commit: null
-fetched_at: null
+status: active
+stars: 33608
+last_commit: "2026-03-02"
+fetched_at: "2026-06-18T13:21:59.521Z"
 
 review:
   ko:

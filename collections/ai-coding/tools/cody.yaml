@@ -1,6 +1,6 @@
 id: cody
 name: Sourcegraph Cody
-repo: sourcegraph/cody
+repo: null   # sourcegraph/cody 경로가 404 — 정확한 slug 확인 전까지 homepage만 사용
 homepage: https://sourcegraph.com/cody
 category: ide-extension
 tags: [vscode, jetbrains, codebase-context, sourcegraph]

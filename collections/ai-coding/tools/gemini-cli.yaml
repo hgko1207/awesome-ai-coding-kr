@@ -10,10 +10,10 @@ platform: [macos, windows, linux]
 tried: false
 rating: null
 
-status: unknown
-stars: null
-last_commit: null
-fetched_at: null
+status: active
+stars: 105389
+last_commit: "2026-06-18"
+fetched_at: "2026-06-18T13:21:59.521Z"
 
 review:
   ko:
