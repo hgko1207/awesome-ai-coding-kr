@@ -7,8 +7,8 @@ tags: [terminal, google, agent, open-source]
 pricing: freemium
 platform: [macos, windows, linux]
 
-tried: false
-rating: null
+tried: true
+rating: 4
 
 status: active
 stars: 105404
@@ -17,4 +17,4 @@ fetched_at: "2026-06-19T04:28:26.168Z"
 
 review:
   ko:
-    blurb: "Google 공식 터미널 에이전트. 넉넉한 무료 한도가 강점."
+    blurb: "무료 한도가 넉넉하고, 검색·리서치 작업에 특히 좋았다. 터미널에서 가볍게 굴리기 괜찮다."
