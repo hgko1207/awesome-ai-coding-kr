@@ -7,8 +7,8 @@ tags: [microsoft, github, autocomplete, chat]
 pricing: freemium
 platform: [vscode, jetbrains, web]
 
-tried: false
-rating: null
+tried: true
+rating: 3
 
 status: unknown
 stars: null
@@ -17,4 +17,4 @@ fetched_at: null
 
 review:
   ko:
-    blurb: "원조 AI 코딩 보조. 자동완성 + 채팅 + 에이전트 모드를 IDE에 통합."
+    blurb: "VS·VSCode에 기본으로 깔려 있어 편하다. 자동완성은 무난하지만, 요즘 에이전트형 도구만큼 똑똑하진 않다."

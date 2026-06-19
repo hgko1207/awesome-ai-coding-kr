@@ -4,7 +4,7 @@
 >
 > ✅ = 큐레이터가 직접 써보고 검증한 도구 · ★ = 직접 써본 도구의 5점 만점 평가
 
-**도구 30개** · 직접 검증 **2개** · 마지막 갱신은 GitHub Actions가 자동 수행
+**도구 30개** · 직접 검증 **3개** · 마지막 갱신은 GitHub Actions가 자동 수행
 
 <!-- 이 파일은 scripts/build-readme.ts가 자동 생성합니다. 직접 수정하지 마세요. -->
 
@@ -61,12 +61,12 @@ _VSCode·JetBrains 등 에디터에 통합되는 도구_
 
 | 도구 | 한 줄 평 | 평가 | ⭐ | 상태 |
 |---|---|---|---|---|
+| [GitHub Copilot](https://github.com/features/copilot) ✅ | VS·VSCode에 기본으로 깔려 있어 편하다. 자동완성은 무난하지만, 요즘 에이전트형 도구만큼 똑똑하진 않다. | ★★★☆☆ | — |  |
 | [Zed](https://zed.dev) | Rust로 만든 초고속 에디터. AI 에이전트 패널을 기본 내장. | 미사용 | 85.5k | 🟢 |
 | [Cline](https://cline.bot) | VSCode 안에서 도는 자율 에이전트 확장. 파일 수정 단계를 사람이 승인하는 방식. | 미사용 | 63.5k | 🟢 |
 | [Continue](https://www.continue.dev) | 오픈소스 IDE 확장. 자동완성·채팅을 직접 모델/규칙으로 커스터마이즈 가능. | 미사용 | 34.1k | 🟢 |
 | [Amazon Q Developer](https://aws.amazon.com/q/developer) | 구 CodeWhisperer. AWS 생태계 연동과 보안 스캔에 강한 코딩 어시스턴트. | 미사용 | — |  |
 | [Sourcegraph Cody](https://sourcegraph.com/cody) | Sourcegraph의 코드 검색을 등에 업은 IDE 어시스턴트. 대형 코드베이스 맥락에 강함. | 미사용 | — |  |
-| [GitHub Copilot](https://github.com/features/copilot) | 원조 AI 코딩 보조. 자동완성 + 채팅 + 에이전트 모드를 IDE에 통합. | 미사용 | — |  |
 | [JetBrains Junie](https://www.jetbrains.com/junie) | JetBrains의 코딩 에이전트. IntelliJ·Rider 등 JetBrains IDE에 통합된다. | 미사용 | — |  |
 | [Roo Code](https://roocode.com) | Cline에서 갈라져 나온 VSCode 에이전트. 모드·커스터마이즈가 더 풍부함. | 미사용 | — |  |
 
