@@ -28,6 +28,11 @@ const base = import.meta.env.BASE_URL;
         도구 <b>{tools.length}</b>개 · 직접 검증 <b>{triedCount}</b>개 ·
         <a href="https://github.com/hgko1207/awesome-ai-coding-kr">GitHub ↗</a>
       </p>
+      <ul class="legend">
+        <li><span>✅ 검증</span> 직접 써보고 평함 (1인칭 경험)</li>
+        <li><span>🔥 인기</span> 개발자들 사이에서 널리 쓰임 (일반 평판 · 개인 검증과는 별개)</li>
+        <li><span>★ 별점</span> 직접 써본 도구에만 매긴 솔직한 평가</li>
+      </ul>
     </header>
 
     <div class="controls">
@@ -174,6 +179,9 @@ const base = import.meta.env.BASE_URL;
       .tagline strong { color: var(--text); }
       .stats { color: var(--dim); margin: 0; font-size: 0.95rem; }
       .stats b { color: var(--text); }
+      .legend { list-style: none; padding: 0; margin: 16px 0 0; display: flex; flex-wrap: wrap; gap: 8px 20px; font-size: 0.85rem; color: var(--dim); }
+      .legend li { white-space: nowrap; }
+      .legend span { color: var(--text); font-weight: 600; margin-right: 4px; }
       .controls {
         max-width: 1100px;
         margin: 0 auto;
