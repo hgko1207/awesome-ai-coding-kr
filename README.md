@@ -7,7 +7,7 @@
 > - 🔥 **인기** — 개발자들 사이에서 *널리 쓰이는* 도구 (일반 평판 · 개인 검증과는 별개)
 > - ★ **별점** — 직접 써본 도구에만 매긴 솔직한 5점 평가
 
-**도구 30개** · 직접 검증 **4개** · 마지막 갱신은 GitHub Actions가 자동 수행
+**도구 27개** · 직접 검증 **4개** · 마지막 갱신은 GitHub Actions가 자동 수행
 
 <!-- 이 파일은 scripts/build-readme.ts가 자동 생성합니다. 직접 수정하지 마세요. -->
 
@@ -16,8 +16,7 @@
 - [코딩 에이전트](#코딩-에이전트) (6)
 - [앱 빌더 (설명→앱)](#앱-빌더-설명-앱-) (4)
 - [터미널 / CLI](#터미널-cli) (5)
-- [IDE 확장](#ide-확장) (8)
-- [자동완성](#자동완성) (2)
+- [IDE 확장](#ide-확장) (7)
 - [코드 리뷰 / PR](#코드-리뷰-pr) (3)
 - [MCP 서버](#mcp-서버) (1)
 - [프롬프트 / 스킬 / 룰](#프롬프트-스킬-룰) (1)
@@ -69,18 +68,8 @@ _VSCode·JetBrains 등 에디터에 통합되는 도구_
 | [Cline](https://cline.bot) 🔥 | VSCode 안에서 도는 자율 에이전트 확장. 파일 수정 단계를 사람이 승인하는 방식. | 미사용 | 63.5k | 🟢 |
 | [Continue](https://www.continue.dev) 🔥 | 오픈소스 IDE 확장. 자동완성·채팅을 직접 모델/규칙으로 커스터마이즈 가능. | 미사용 | 34.1k | 🟢 |
 | [Amazon Q Developer](https://aws.amazon.com/q/developer) | 구 CodeWhisperer. AWS 생태계 연동과 보안 스캔에 강한 코딩 어시스턴트. | 미사용 | — |  |
-| [Sourcegraph Cody](https://sourcegraph.com/cody) | Sourcegraph의 코드 검색을 등에 업은 IDE 어시스턴트. 대형 코드베이스 맥락에 강함. | 미사용 | — |  |
 | [JetBrains Junie](https://www.jetbrains.com/junie) | JetBrains의 코딩 에이전트. IntelliJ·Rider 등 JetBrains IDE에 통합된다. | 미사용 | — |  |
 | [Roo Code](https://roocode.com) | Cline에서 갈라져 나온 VSCode 에이전트. 모드·커스터마이즈가 더 풍부함. | 미사용 | — |  |
-
-## 자동완성
-
-_입력 중 코드를 제안하는 인라인 자동완성_
-
-| 도구 | 한 줄 평 | 평가 | ⭐ | 상태 |
-|---|---|---|---|---|
-| [Tabby](https://www.tabbyml.com) | 직접 호스팅하는 오픈소스 자동완성. 코드가 외부로 안 나가야 할 때 선택. | 미사용 | 33.6k | 🟢 |
-| [Tabnine](https://www.tabnine.com) | 오래된 자동완성 도구. 보안·온프레미스 옵션으로 기업 시장을 노림. | 미사용 | — |  |
 
 ## 코드 리뷰 / PR
 

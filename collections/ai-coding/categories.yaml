@@ -14,9 +14,6 @@ categories:
   - key: ide-extension
     name: IDE 확장
     description: VSCode·JetBrains 등 에디터에 통합되는 도구
-  - key: autocomplete
-    name: 자동완성
-    description: 입력 중 코드를 제안하는 인라인 자동완성
   - key: review
     name: 코드 리뷰 / PR
     description: PR·커밋을 자동으로 리뷰하는 도구
