@@ -1,6 +1,8 @@
-import { loadCollection } from "./lib/load.ts";
+import { loadCollection, loadResources } from "./lib/load.ts";
 
 const { tools, categories, errors } = loadCollection();
+const { resources, errors: resErrors } = loadResources();
+errors.push(...resErrors);
 
 if (errors.length) {
   console.error(`\n❌ 검증 실패 — ${errors.length}개 문제:\n`);
@@ -11,5 +13,5 @@ if (errors.length) {
 
 const tried = tools.filter((t) => t.tried).length;
 console.log(
-  `✅ 검증 통과 — 카테고리 ${categories.length}개, 도구 ${tools.length}개 (직접 써봄 ${tried}개)`,
+  `✅ 검증 통과 — 카테고리 ${categories.length}개, 도구 ${tools.length}개 (직접 써봄 ${tried}개), 학습자료 ${resources.length}개`,
 );

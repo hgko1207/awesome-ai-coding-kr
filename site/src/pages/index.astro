@@ -1,8 +1,18 @@
 ---
-import { getTools, getCategories, link, starsLabel, STATUS_LABEL } from "../lib/data.ts";
+import {
+  getTools,
+  getCategories,
+  getResources,
+  RESOURCE_TYPE_ORDER,
+  RESOURCE_TYPE_LABEL,
+  link,
+  starsLabel,
+  STATUS_LABEL,
+} from "../lib/data.ts";
 
 const tools = getTools();
 const categories = getCategories();
+const resources = getResources();
 const triedCount = tools.filter((t) => t.tried).length;
 const catName = (key: string) => categories.find((c) => c.key === key)?.name ?? key;
 const base = import.meta.env.BASE_URL;
@@ -105,6 +115,35 @@ const base = import.meta.env.BASE_URL;
       <p id="empty" hidden>검색 결과가 없습니다.</p>
     </main>
 
+    {
+      resources.length > 0 && (
+        <section class="resources">
+          <h2>📚 학습 자료 & 가이드</h2>
+          <p class="sub">AI 코딩을 잘하기 위한 가이드·문서·아티클. 도구가 아니라 '잘 쓰는 법'.</p>
+          {RESOURCE_TYPE_ORDER.map((type) => {
+            const inType = resources.filter((r) => r.type === type);
+            if (!inType.length) return null;
+            return (
+              <div class="rgroup">
+                <h3>{RESOURCE_TYPE_LABEL[type]}</h3>
+                <ul>
+                  {inType.map((r) => (
+                    <li>
+                      <span class="lang">{r.lang === "ko" ? "🇰🇷" : "🇬🇧"}</span>
+                      <a href={r.url}>{r.title}</a>
+                      {r.tried && <span class="verified" title="직접 읽고 검증함">✅</span>}
+                      {r.source && <span class="src">— {r.source}</span>}
+                      <span class="rblurb">{r.blurb}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            );
+          })}
+        </section>
+      )
+    }
+
     <footer>
       데이터는 <a href="https://github.com/hgko1207/awesome-ai-coding-kr/tree/main/collections"
         >collections/*.yaml</a
@@ -113,7 +152,7 @@ const base = import.meta.env.BASE_URL;
 
     <script is:inline>
       const search = document.getElementById("search");
-      const cards = [...document.querySelectorAll(".card")];
+      const cards = [...document.querySelectorAll("#grid .card")];
       const chips = [...document.querySelectorAll(".chip")];
       const empty = document.getElementById("empty");
       let cat = "all";
@@ -247,6 +286,22 @@ const base = import.meta.env.BASE_URL;
       .tag { font-size: 0.74rem; color: var(--dim); background: #20242e; padding: 2px 8px; border-radius: 6px; }
       .post { font-size: 0.85rem; }
       #empty { grid-column: 1 / -1; text-align: center; color: var(--dim); padding: 48px; }
+      .resources {
+        max-width: 1100px;
+        margin: 0 auto;
+        padding: 16px 24px 48px;
+        border-top: 1px solid var(--border);
+      }
+      .resources h2 { font-size: 1.5rem; margin: 24px 0 4px; }
+      .resources .sub { color: var(--dim); margin: 0 0 24px; }
+      .rgroup h3 { font-size: 1.05rem; color: var(--accent); margin: 24px 0 8px; }
+      .rgroup ul { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 10px; }
+      .rgroup li { background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 12px 14px; }
+      .rgroup li a { font-weight: 600; }
+      .rgroup .lang { margin-right: 6px; }
+      .rgroup .verified { margin-left: 4px; }
+      .rgroup .src { color: var(--dim); font-size: 0.85rem; margin-left: 6px; }
+      .rgroup .rblurb { display: block; color: #c3c8d4; font-size: 0.9rem; margin-top: 4px; }
       footer {
         max-width: 1100px;
         margin: 0 auto;

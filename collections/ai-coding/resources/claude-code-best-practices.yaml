@@ -1,0 +1,12 @@
+id: claude-code-best-practices
+title: Claude Code Best Practices
+url: https://www.anthropic.com/engineering/claude-code-best-practices
+type: guide
+lang: en
+source: Anthropic
+tags: [claude-code, workflow, context]
+
+tried: false      # 읽어봤으면 true + rating(1~5)
+rating: null
+
+blurb: "Claude Code를 효과적으로 쓰는 공식 가이드. 컨텍스트 관리·워크플로우 팁이 알차다."

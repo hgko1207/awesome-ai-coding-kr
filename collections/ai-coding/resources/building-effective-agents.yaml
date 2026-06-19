@@ -1,0 +1,12 @@
+id: building-effective-agents
+title: Building Effective Agents
+url: https://www.anthropic.com/engineering/building-effective-agents
+type: article
+lang: en
+source: Anthropic
+tags: [agent, design-pattern, workflow]
+
+tried: false
+rating: null
+
+blurb: "에이전트 설계 패턴을 정리한 Anthropic 글. AI 코딩 워크플로우를 직접 짤 때 기준이 된다."

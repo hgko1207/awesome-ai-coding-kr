@@ -79,6 +79,50 @@ export const ToolSchema = z
 
 export type Tool = z.infer<typeof ToolSchema>;
 
+// --- 학습 자료 & 가이드 (도구가 아닌 콘텐츠) ---
+export const RESOURCE_TYPES = [
+  "guide",
+  "article",
+  "docs",
+  "course",
+  "book",
+  "video",
+  "newsletter",
+] as const;
+
+export const RESOURCE_TYPE_LABEL: Record<(typeof RESOURCE_TYPES)[number], string> = {
+  guide: "가이드 / 베스트 프랙티스",
+  article: "아티클",
+  docs: "공식 문서",
+  course: "강의",
+  book: "책",
+  video: "영상",
+  newsletter: "뉴스레터",
+};
+
+export const ResourceSchema = z
+  .object({
+    id: z.string().regex(/^[a-z0-9]+(?:-[a-z0-9]+)*$/, "id는 kebab-case여야 합니다"),
+    title: z.string().min(1),
+    url: z.string().url(),
+    type: z.enum(RESOURCE_TYPES),
+    lang: z.enum(["ko", "en"]).default("en"),
+    source: z.string().optional(), // 저자/출처
+    tags: z.array(z.string()).default([]),
+    tried: z.boolean().default(false), // 내가 읽었/봤는가
+    rating: z.number().int().min(1).max(5).nullable().optional(),
+    blurb: z.string().min(1), // 한 줄 평/설명 (한국어)
+    post: z.string().url().optional(), // 관련 내 블로그 글
+  })
+  .superRefine((r, ctx) => {
+    if (r.tried && r.rating == null)
+      ctx.addIssue({ code: z.ZodIssueCode.custom, message: "tried: true 이면 rating 필수", path: ["rating"] });
+    if (!r.tried && r.rating != null)
+      ctx.addIssue({ code: z.ZodIssueCode.custom, message: "안 본 자료에 rating 금지", path: ["rating"] });
+  });
+
+export type Resource = z.infer<typeof ResourceSchema>;
+
 export const CategorySchema = z.object({
   key: z.enum(CATEGORY_KEYS),
   name: z.string().min(1), // 한국어 표시명

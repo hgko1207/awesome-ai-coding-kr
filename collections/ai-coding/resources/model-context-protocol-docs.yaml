@@ -1,0 +1,12 @@
+id: model-context-protocol-docs
+title: Model Context Protocol 공식 문서
+url: https://modelcontextprotocol.io
+type: docs
+lang: en
+source: Anthropic
+tags: [mcp, agent, integration]
+
+tried: false
+rating: null
+
+blurb: "에이전트에 도구·데이터를 연결하는 MCP 표준 문서. MCP 서버 직접 만들 때 출발점."

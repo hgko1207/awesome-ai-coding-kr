@@ -1,9 +1,11 @@
 import { writeFileSync } from "node:fs";
 import { join } from "node:path";
-import { loadCollection, ROOT } from "./lib/load.ts";
-import type { Tool } from "./lib/schema.ts";
+import { loadCollection, loadResources, ROOT } from "./lib/load.ts";
+import { RESOURCE_TYPES, RESOURCE_TYPE_LABEL, type Tool } from "./lib/schema.ts";
 
 const { tools, categories, errors } = loadCollection();
+const { resources, errors: resErrors } = loadResources();
+errors.push(...resErrors);
 if (errors.length) {
   console.error("❌ 검증 에러가 있어 README를 생성하지 않습니다. `npm run validate`로 확인하세요.");
   process.exit(1);
@@ -102,10 +104,33 @@ for (const c of categories) {
   lines.push("");
 }
 
+// --- 학습 자료 & 가이드 ---
+if (resources.length) {
+  lines.push("# 📚 학습 자료 & 가이드");
+  lines.push("");
+  lines.push("_AI 코딩을 잘하기 위한 가이드·문서·아티클. 도구가 아니라 '잘 쓰는 법'._");
+  lines.push("");
+  for (const type of RESOURCE_TYPES) {
+    const inType = resources
+      .filter((r) => r.type === type)
+      .sort((a, b) => (a.tried === b.tried ? 0 : a.tried ? -1 : 1));
+    if (!inType.length) continue;
+    lines.push(`### ${RESOURCE_TYPE_LABEL[type]}`);
+    lines.push("");
+    for (const r of inType) {
+      const langTag = r.lang === "ko" ? "🇰🇷" : "🇬🇧";
+      const verified = r.tried ? " ✅" : "";
+      const src = r.source ? ` — _${r.source}_` : "";
+      lines.push(`- ${langTag} [${r.title}](${r.url})${verified}${src}<br>${r.blurb}`);
+    }
+    lines.push("");
+  }
+}
+
 lines.push("---");
 lines.push("");
 lines.push(
-  "이 리스트는 [설계 문서](awesome-ai-coding-kr-design.md)를 기반으로 만들어졌습니다. 데이터는 `collections/ai-coding/tools/*.yaml`에 있습니다.",
+  "이 리스트는 [설계 문서](awesome-ai-coding-kr-design.md)를 기반으로 만들어졌습니다. 데이터는 `collections/ai-coding/`의 `tools/`·`resources/` YAML에 있습니다.",
 );
 lines.push("");
 

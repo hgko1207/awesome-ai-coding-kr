@@ -97,6 +97,25 @@ _프롬프트·스킬·룰 모음과 관련 자원_
 |---|---|---|---|---|
 | [awesome-cursorrules](https://github.com/PatrickJS/awesome-cursorrules) 🔥 | Cursor용 .cursorrules 규칙 모음. 프로젝트별 AI 동작을 손쉽게 세팅한다. | 미사용 | 40.0k | 🟢 |
 
+# 📚 학습 자료 & 가이드
+
+_AI 코딩을 잘하기 위한 가이드·문서·아티클. 도구가 아니라 '잘 쓰는 법'._
+
+### 가이드 / 베스트 프랙티스
+
+- 🇬🇧 [Claude Code Best Practices](https://www.anthropic.com/engineering/claude-code-best-practices) — _Anthropic_<br>Claude Code를 효과적으로 쓰는 공식 가이드. 컨텍스트 관리·워크플로우 팁이 알차다.
+- 🇬🇧 [Prompt Engineering Guide](https://www.promptingguide.ai) — _DAIR.AI_<br>프롬프트 엔지니어링을 기법별로 정리한 종합 가이드. 입문·참고용으로 두루 좋다.
+
+### 아티클
+
+- 🇬🇧 [Building Effective Agents](https://www.anthropic.com/engineering/building-effective-agents) — _Anthropic_<br>에이전트 설계 패턴을 정리한 Anthropic 글. AI 코딩 워크플로우를 직접 짤 때 기준이 된다.
+- 🇬🇧 [Simon Willison's Weblog](https://simonwillison.net) — _Simon Willison_<br>LLM·AI 코딩 실전 글이 꾸준히 올라오는 블로그. 깊이 있는 관찰과 실험이 강점.
+
+### 공식 문서
+
+- 🇬🇧 [Anthropic 공식 문서](https://docs.anthropic.com) — _Anthropic_<br>Claude API·프롬프트·도구 사용의 공식 레퍼런스. 막히면 결국 여기로 돌아온다.
+- 🇬🇧 [Model Context Protocol 공식 문서](https://modelcontextprotocol.io) — _Anthropic_<br>에이전트에 도구·데이터를 연결하는 MCP 표준 문서. MCP 서버 직접 만들 때 출발점.
+
 ---
 
-이 리스트는 [설계 문서](awesome-ai-coding-kr-design.md)를 기반으로 만들어졌습니다. 데이터는 `collections/ai-coding/tools/*.yaml`에 있습니다.
+이 리스트는 [설계 문서](awesome-ai-coding-kr-design.md)를 기반으로 만들어졌습니다. 데이터는 `collections/ai-coding/`의 `tools/`·`resources/` YAML에 있습니다.

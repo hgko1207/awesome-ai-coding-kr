@@ -31,6 +31,48 @@ export interface Category {
   description?: string;
 }
 
+export interface Resource {
+  id: string;
+  title: string;
+  url: string;
+  type: string;
+  lang: "ko" | "en";
+  source?: string;
+  tags: string[];
+  tried: boolean;
+  rating: number | null;
+  blurb: string;
+  post?: string;
+}
+
+export const RESOURCE_TYPE_ORDER = [
+  "guide",
+  "article",
+  "docs",
+  "course",
+  "book",
+  "video",
+  "newsletter",
+];
+export const RESOURCE_TYPE_LABEL: Record<string, string> = {
+  guide: "가이드 / 베스트 프랙티스",
+  article: "아티클",
+  docs: "공식 문서",
+  course: "강의",
+  book: "책",
+  video: "영상",
+  newsletter: "뉴스레터",
+};
+
+export function getResources(): Resource[] {
+  const dir = fileURLToPath(new URL("resources/", baseUrl));
+  if (!existsSync(dir)) return [];
+  const files = readdirSync(dir).filter((f) => f.endsWith(".yaml") || f.endsWith(".yml"));
+  return files
+    .map((f) => parse(readFileSync(`${dir}${f}`, "utf8")) as Resource)
+    .sort((a, b) => (a.tried === b.tried ? 0 : a.tried ? -1 : 1));
+}
+
 export function getCategories(): Category[] {
   const path = fileURLToPath(new URL("categories.yaml", baseUrl));
   const data = parse(readFileSync(path, "utf8")) as { categories: Category[] };
