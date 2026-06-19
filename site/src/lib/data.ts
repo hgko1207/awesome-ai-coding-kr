@@ -18,6 +18,7 @@ export interface Tool {
   platform: string[];
   tried: boolean;
   rating: number | null;
+  popular?: boolean;
   status: string;
   stars: number | null;
   last_commit: string | null;
@@ -41,9 +42,10 @@ export function getTools(): Tool[] {
   if (!existsSync(dir)) return [];
   const files = readdirSync(dir).filter((f) => f.endsWith(".yaml") || f.endsWith(".yml"));
   const tools = files.map((f) => parse(readFileSync(`${dir}${f}`, "utf8")) as Tool);
-  // 직접 써본 것 우선 → 별점 → 스타
+  // 직접 써본 것 → 인기 → 별점 → 스타
   return tools.sort((a, b) => {
     if (a.tried !== b.tried) return a.tried ? -1 : 1;
+    if (!!a.popular !== !!b.popular) return a.popular ? -1 : 1;
     if ((b.rating ?? 0) !== (a.rating ?? 0)) return (b.rating ?? 0) - (a.rating ?? 0);
     return (b.stars ?? 0) - (a.stars ?? 0);
   });

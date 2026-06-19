@@ -25,7 +25,8 @@ function nameCell(t: Tool): string {
   const link = t.homepage ?? (t.repo ? `https://github.com/${t.repo}` : null);
   const display = link ? `[${t.name}](${link})` : t.name;
   const verified = t.tried ? " ✅" : "";
-  return `${display}${verified}`;
+  const popular = t.popular ? " 🔥" : "";
+  return `${display}${verified}${popular}`;
 }
 
 function starsCount(t: Tool): string {
@@ -51,7 +52,9 @@ lines.push(
   "> 직접 써본 AI 코딩 도구를 **솔직한 한국어 평**과 함께 모은 큐레이션. 양이 아니라 신뢰로 승부합니다.",
 );
 lines.push(">");
-lines.push("> ✅ = 큐레이터가 직접 써보고 검증한 도구 · ★ = 직접 써본 도구의 5점 만점 평가");
+lines.push(
+  "> ✅ = 직접 써보고 검증한 도구 · 🔥 = 널리 쓰이는 대중적 도구 · ★ = 직접 써본 도구의 5점 평가",
+);
 lines.push("");
 
 const triedCount = tools.filter((t) => t.tried).length;
@@ -78,8 +81,9 @@ for (const c of categories) {
   const inCat = tools
     .filter((t) => t.category === c.key)
     .sort((a, b) => {
-      // 직접 써본 것 우선, 그다음 별점, 그다음 스타
+      // 직접 써본 것 → 인기 → 별점 → 스타
       if (a.tried !== b.tried) return a.tried ? -1 : 1;
+      if (!!a.popular !== !!b.popular) return a.popular ? -1 : 1;
       if ((b.rating ?? 0) !== (a.rating ?? 0)) return (b.rating ?? 0) - (a.rating ?? 0);
       return (b.stars ?? 0) - (a.stars ?? 0);
     });

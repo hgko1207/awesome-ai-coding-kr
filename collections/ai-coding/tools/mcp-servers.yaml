@@ -9,6 +9,7 @@ platform: [macos, windows, linux]
 
 tried: false
 rating: null
+popular: true
 
 status: active
 stars: 87428

@@ -9,6 +9,7 @@ platform: [vscode]
 
 tried: false
 rating: null
+popular: true
 
 status: active
 stars: 63516

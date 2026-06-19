@@ -46,6 +46,7 @@ export const ToolSchema = z
     // --- 큐레이션 (사람) ---
     tried: z.boolean().default(false),
     rating: z.number().int().min(1).max(5).nullable().optional(),
+    popular: z.boolean().default(false), // 큐레이터 판단: 널리 쓰이는 대중적 도구 (스타와 별개)
 
     // --- 자동 수집 (기계) ---
     status: z.enum(STATUS).default("unknown"),
