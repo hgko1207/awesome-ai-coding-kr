@@ -27,7 +27,7 @@ _작업을 받아 스스로 코드를 읽고 쓰고 실행하는 자율 에이�
 
 | 도구 | 한 줄 평 | 평가 | ⭐ | 상태 |
 |---|---|---|---|---|
-| [Claude Code](https://www.anthropic.com/claude-code) ✅ 🔥 | VSCode에 붙여 매일 쓰는 주력. 플랜 짜기·아이디어 생성·바이브코딩에 특히 강하다. | ★★★★★ | 140.8k | 🟢 |
+| [Claude Code](https://www.anthropic.com/claude-code) ✅ 🔥 | VSCode에 붙여 매일 쓰는 주력. 플랜 짜기·아이디어 생성·바이브코딩에 특히 강하다. | ★★★★★ | 141.0k | 🟢 |
 | [Google Antigravity](https://antigravity.google) ✅ | 구글의 에이전트형 IDE. 깔아서 써봤는데 가능성은 보이지만 아직 손에 익진 않았다. | ★★★☆☆ | — |  |
 | [Cursor](https://www.cursor.com) 🔥 | VSCode 기반 AI 에디터. 에이전트 모드와 탭 자동완성으로 가장 널리 쓰임. | 미사용 | — |  |
 | [Devin](https://devin.ai) 🔥 | Cognition이 만든 자율 SW 엔지니어. 작업을 통째로 맡기는 클라우드 에이전트. | 미사용 | — |  |
@@ -52,7 +52,7 @@ _터미널에서 쓰는 AI 코딩 도구_
 | 도구 | 한 줄 평 | 평가 | ⭐ | 상태 |
 |---|---|---|---|---|
 | [Gemini CLI](https://github.com/google-gemini/gemini-cli) ✅ 🔥 | 무료 한도가 넉넉하고, 검색·리서치 작업에 특히 좋았다. 터미널에서 가볍게 굴리기 괜찮다. | ★★★★☆ | 106.4k | 🟢 |
-| [OpenAI Codex CLI](https://developers.openai.com/codex) 🔥 | OpenAI 공식 터미널 코딩 에이전트. Claude Code의 OpenAI 진영 대응. | 미사용 | 105.0k | 🟢 |
+| [OpenAI Codex CLI](https://developers.openai.com/codex) 🔥 | OpenAI 공식 터미널 코딩 에이전트. Claude Code의 OpenAI 진영 대응. | 미사용 | 105.2k | 🟢 |
 | [Aider](https://aider.chat) 🔥 | 터미널에서 git과 짝지어 작동하는 페어 프로그래밍 CLI. 모델 선택 자유로움. | 미사용 | 48.1k | 🟢 |
 | [Warp](https://www.warp.dev) 🔥 | AI를 내장한 현대적 터미널. 명령어 추천과 에이전트 모드를 지원한다. | 미사용 | — |  |
 | [Goose](https://block.github.io/goose) | Block(스퀘어)이 만든 오픈소스 에이전트. MCP 기반 확장이 자유로움. | 미사용 | 52.6k | 🟢 |
@@ -64,8 +64,8 @@ _VSCode·JetBrains 등 에디터에 통합되는 도구_
 | 도구 | 한 줄 평 | 평가 | ⭐ | 상태 |
 |---|---|---|---|---|
 | [GitHub Copilot](https://github.com/features/copilot) ✅ 🔥 | VS·VSCode에 기본으로 깔려 있어 편하다. 자동완성은 무난하지만, 요즘 에이전트형 도구만큼 똑똑하진 않다. | ★★★☆☆ | — |  |
-| [Zed](https://zed.dev) 🔥 | Rust로 만든 초고속 에디터. AI 에이전트 패널을 기본 내장. | 미사용 | 88.3k | 🟢 |
-| [Cline](https://cline.bot) 🔥 | VSCode 안에서 도는 자율 에이전트 확장. 파일 수정 단계를 사람이 승인하는 방식. | 미사용 | 65.9k | 🟢 |
+| [Zed](https://zed.dev) 🔥 | Rust로 만든 초고속 에디터. AI 에이전트 패널을 기본 내장. | 미사용 | 88.4k | 🟢 |
+| [Cline](https://cline.bot) 🔥 | VSCode 안에서 도는 자율 에이전트 확장. 파일 수정 단계를 사람이 승인하는 방식. | 미사용 | 66.0k | 🟢 |
 | [Continue](https://www.continue.dev) 🔥 | 오픈소스 IDE 확장. 자동완성·채팅을 직접 모델/규칙으로 커스터마이즈 가능. | 미사용 | 35.4k | 🟢 |
 | [Amazon Q Developer](https://aws.amazon.com/q/developer) | 구 CodeWhisperer. AWS 생태계 연동과 보안 스캔에 강한 코딩 어시스턴트. | 미사용 | — |  |
 | [JetBrains Junie](https://www.jetbrains.com/junie) | JetBrains의 코딩 에이전트. IntelliJ·Rider 등 JetBrains IDE에 통합된다. | 미사용 | — |  |
@@ -78,7 +78,7 @@ _PR·커밋을 자동으로 리뷰하는 도구_
 | 도구 | 한 줄 평 | 평가 | ⭐ | 상태 |
 |---|---|---|---|---|
 | [CodeRabbit](https://www.coderabbit.ai) 🔥 | PR을 자동으로 읽고 라인별 리뷰 코멘트를 다는 도구. 깃허브/깃랩 연동. | 미사용 | — |  |
-| [Qodo](https://www.qodo.ai) | 구 CodiumAI. PR 리뷰와 테스트 생성에 특화. 오픈소스 PR-Agent도 제공한다. | 미사용 | 12.4k | 🟢 |
+| [Qodo](https://www.qodo.ai) | 구 CodiumAI. PR 리뷰와 테스트 생성에 특화. 오픈소스 PR-Agent도 제공한다. | 미사용 | 12.5k | 🟢 |
 | [Greptile](https://www.greptile.com) | 코드베이스 전체 맥락을 이해해 PR을 리뷰하는 도구. 큰 저장소에 강하다. | 미사용 | — |  |
 
 ## MCP 서버
@@ -95,7 +95,7 @@ _프롬프트·스킬·룰 모음과 관련 자원_
 
 | 도구 | 한 줄 평 | 평가 | ⭐ | 상태 |
 |---|---|---|---|---|
-| [awesome-cursorrules](https://github.com/PatrickJS/awesome-cursorrules) 🔥 | Cursor용 .cursorrules 규칙 모음. 프로젝트별 AI 동작을 손쉽게 세팅한다. | 미사용 | 40.5k | 🟢 |
+| [awesome-cursorrules](https://github.com/PatrickJS/awesome-cursorrules) 🔥 | Cursor용 .cursorrules 규칙 모음. 프로젝트별 AI 동작을 손쉽게 세팅한다. | 미사용 | 40.6k | 🟢 |
 
 # 📚 학습 자료 & 가이드
 
