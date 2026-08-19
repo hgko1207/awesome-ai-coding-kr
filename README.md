@@ -27,12 +27,12 @@ _작업을 받아 스스로 코드를 읽고 쓰고 실행하는 자율 에이�
 
 | 도구 | 한 줄 평 | 평가 | ⭐ | 상태 |
 |---|---|---|---|---|
-| [Claude Code](https://www.anthropic.com/claude-code) ✅ 🔥 | VSCode에 붙여 매일 쓰는 주력. 플랜 짜기·아이디어 생성·바이브코딩에 특히 강하다. | ★★★★★ | 141.8k | 🟢 |
+| [Claude Code](https://www.anthropic.com/claude-code) ✅ 🔥 | VSCode에 붙여 매일 쓰는 주력. 플랜 짜기·아이디어 생성·바이브코딩에 특히 강하다. | ★★★★★ | 141.9k | 🟢 |
 | [Google Antigravity](https://antigravity.google) ✅ | 구글의 에이전트형 IDE. 깔아서 써봤는데 가능성은 보이지만 아직 손에 익진 않았다. | ★★★☆☆ | — |  |
 | [Cursor](https://www.cursor.com) 🔥 | VSCode 기반 AI 에디터. 에이전트 모드와 탭 자동완성으로 가장 널리 쓰임. | 미사용 | — |  |
 | [Devin](https://devin.ai) 🔥 | Cognition이 만든 자율 SW 엔지니어. 작업을 통째로 맡기는 클라우드 에이전트. | 미사용 | — |  |
 | [Windsurf](https://windsurf.com) 🔥 | Cascade 에이전트를 내장한 AI 에디터. Cursor의 주요 경쟁자. | 미사용 | — |  |
-| [OpenHands](https://www.all-hands.dev) | 구 OpenDevin. 샌드박스에서 자율로 코드를 작성·실행하는 오픈소스 에이전트. | 미사용 | 84.3k | 🟢 |
+| [OpenHands](https://www.all-hands.dev) | 구 OpenDevin. 샌드박스에서 자율로 코드를 작성·실행하는 오픈소스 에이전트. | 미사용 | 84.4k | 🟢 |
 
 ## 앱 빌더 (설명→앱)
 
@@ -51,11 +51,11 @@ _터미널에서 쓰는 AI 코딩 도구_
 
 | 도구 | 한 줄 평 | 평가 | ⭐ | 상태 |
 |---|---|---|---|---|
-| [Gemini CLI](https://github.com/google-gemini/gemini-cli) ✅ 🔥 | 무료 한도가 넉넉하고, 검색·리서치 작업에 특히 좋았다. 터미널에서 가볍게 굴리기 괜찮다. | ★★★★☆ | 106.5k | 🟢 |
-| [OpenAI Codex CLI](https://developers.openai.com/codex) 🔥 | OpenAI 공식 터미널 코딩 에이전트. Claude Code의 OpenAI 진영 대응. | 미사용 | 106.5k | 🟢 |
+| [Gemini CLI](https://github.com/google-gemini/gemini-cli) ✅ 🔥 | 무료 한도가 넉넉하고, 검색·리서치 작업에 특히 좋았다. 터미널에서 가볍게 굴리기 괜찮다. | ★★★★☆ | 106.6k | 🟢 |
+| [OpenAI Codex CLI](https://developers.openai.com/codex) 🔥 | OpenAI 공식 터미널 코딩 에이전트. Claude Code의 OpenAI 진영 대응. | 미사용 | 106.7k | 🟢 |
 | [Aider](https://aider.chat) 🔥 | 터미널에서 git과 짝지어 작동하는 페어 프로그래밍 CLI. 모델 선택 자유로움. | 미사용 | 48.3k | 🟢 |
 | [Warp](https://www.warp.dev) 🔥 | AI를 내장한 현대적 터미널. 명령어 추천과 에이전트 모드를 지원한다. | 미사용 | — |  |
-| [Goose](https://block.github.io/goose) | Block(스퀘어)이 만든 오픈소스 에이전트. MCP 기반 확장이 자유로움. | 미사용 | 52.9k | 🟢 |
+| [Goose](https://block.github.io/goose) | Block(스퀘어)이 만든 오픈소스 에이전트. MCP 기반 확장이 자유로움. | 미사용 | 53.0k | 🟢 |
 
 ## IDE 확장
 
@@ -87,7 +87,7 @@ _Model Context Protocol 서버 — 에이전트에 도구·데이터를 연결_
 
 | 도구 | 한 줄 평 | 평가 | ⭐ | 상태 |
 |---|---|---|---|---|
-| [MCP Servers (공식 모음)](https://modelcontextprotocol.io) 🔥 | Model Context Protocol 공식 레퍼런스 서버 모음. 에이전트에 도구·데이터 연결. | 미사용 | 89.6k | 🟢 |
+| [MCP Servers (공식 모음)](https://modelcontextprotocol.io) 🔥 | Model Context Protocol 공식 레퍼런스 서버 모음. 에이전트에 도구·데이터 연결. | 미사용 | 89.7k | 🟢 |
 
 ## 프롬프트 / 스킬 / 룰
 
