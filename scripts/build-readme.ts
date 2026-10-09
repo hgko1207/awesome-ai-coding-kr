@@ -133,6 +133,8 @@ lines.push(
   "이 리스트는 [설계 문서](awesome-ai-coding-kr-design.md)를 기반으로 만들어졌습니다. 데이터는 `collections/ai-coding/`의 `tools/`·`resources/` YAML에 있습니다.",
 );
 lines.push("");
+lines.push("목록 내용은 [CC BY 4.0](LICENSE)으로 공개합니다. 출처(이 저장소)만 밝히면 자유롭게 쓰고 고쳐도 됩니다.");
+lines.push("");
 
 writeFileSync(join(ROOT, "README.md"), lines.join("\n"), "utf8");
 console.log(`✅ README.md 생성 완료 — 도구 ${tools.length}개, 카테고리 ${categories.length}개`);
