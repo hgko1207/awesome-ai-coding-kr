@@ -1,0 +1,21 @@
+id: kliv
+name: Kliv
+repo: null
+homepage: https://kliv.dev/ko
+category: app-builder
+tags: [web, full-stack, hosting, korean]
+pricing: freemium
+platform: [web]
+
+tried: false
+rating: null
+popular: false
+
+status: unknown
+stars: null
+last_commit: null
+fetched_at: null
+
+review:
+  ko:
+    blurb: "설명만으로 로그인·데이터베이스·이메일이 들어간 웹앱을 만들고 호스팅까지 해 주는 앱 빌더. 한국어 화면과 무료 시작 플랜이 있다."

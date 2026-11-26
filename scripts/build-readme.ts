@@ -51,7 +51,11 @@ const lines: string[] = [];
 lines.push("# awesome-ai-coding-kr");
 lines.push("");
 lines.push(
-  "> 직접 써본 AI 코딩 도구를 **솔직한 한국어 평**과 함께 모은 큐레이션. 양이 아니라 신뢰로 승부합니다.",
+  "> AI 코딩 도구를 **한국어 한 줄 평**으로 정리한 큐레이션. 직접 써 본 도구는 ✅와 별점으로 따로 표시합니다.",
+);
+lines.push(">");
+lines.push(
+  "> 도구에 붙여 쓰는 스킬·플러그인·MCP 서버는 [스킬맵(skills.hgko.dev)](https://skills.hgko.dev/)에 따로 모았습니다.",
 );
 lines.push(">");
 lines.push("> **표시 뜻**");
