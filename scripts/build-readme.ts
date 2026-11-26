@@ -78,7 +78,11 @@ lines.push("");
 for (const c of categories) {
   const count = tools.filter((t) => t.category === c.key).length;
   if (!count) continue;
-  const anchor = c.name.toLowerCase().replace(/[^\w가-힣]+/g, "-");
+  // GitHub 제목 앵커 규칙: 소문자로, 글자·숫자·공백·-·_ 외 기호는 지우고, 공백 하나를 - 하나로
+  const anchor = c.name
+    .toLowerCase()
+    .replace(/[^\p{L}\p{N}\p{M} _-]/gu, "")
+    .replace(/ /g, "-");
   lines.push(`- [${c.name}](#${anchor}) (${count})`);
 }
 lines.push("");
