@@ -11,10 +11,10 @@ tried: false
 rating: null
 popular: true
 
-status: active
-stars: 41183
+status: stale
+stars: 41193
 last_commit: "2026-05-30"
-fetched_at: "2026-11-25T07:29:33.176Z"
+fetched_at: "2026-11-26T07:17:32.128Z"
 
 review:
   ko:
